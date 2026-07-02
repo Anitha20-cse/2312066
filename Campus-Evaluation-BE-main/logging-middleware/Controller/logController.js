@@ -17,7 +17,7 @@ const logdata=async(req,res)=>{
      console.log(`Response Log Data `,response.data)
 
     res.status(200).json({
-      message: "Successfully sent log",
+      message: "Successfully sent log data",
       data: response.data
     });
     
